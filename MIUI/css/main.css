@@ -1,0 +1,219 @@
+/*重置样式*/
+body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6 { margin: 0;padding: 0;}
+
+body { background: #FFF; color: #000; font-size: 12px; font-style: normal; font-family:'Microsoft Yahei','微软雅黑','Simsun','宋体','Arial', sans-serif;}
+address,caption,dfn,th,var,cite,code,i,em,s,label,input,select,textarea{font-style:normal;font-weight:normal;font-family:inherit;}
+input[type="submit"],input[type="reset"],input[type="button"]{cursor:pointer;}
+select,input,textarea{font-family:inherit;margin:0;}
+li { list-style:none;}
+img { border:0; background:none;}
+a { text-decoration:none; color:#08c;}
+a:hover { text-decoration:underline; color:#f50;}
+table { border-spacing:0; border-collapse:collapse;}
+
+.clearfix:before,
+.clearfix:after{display:table; content:"";}
+.clearfix:after{clear:both}
+
+.flt{
+	float: left;
+}
+
+.frt{
+	float: right;
+}
+
+.header{
+	height: 20px;
+	background: #000;
+	padding: 15px 0;
+}
+
+.logo{
+	width: 46px;
+	height: 18px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.logo a{
+	width: 46px;
+	height: 17px;
+	color: #868686;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a{
+	display: inline-block;
+	margin-left: 35px;
+	font-size: 14px;
+	color: #fff;
+}
+.nav li a:hover{
+	color: #868686;
+	text-decoration: none;
+}
+
+.nav li.active a{
+	color: #868686;
+}
+
+
+.focus{
+	height: 658px;
+}
+
+/*-----------------自定义按钮样式，移动端不需要，PC端根据实际情况选择----------------*/
+.demo {height: 450px;font-size: 14px;position:relative;}
+.demo a.control {position:absolute;display: block;top: 50%;margin-top: 20px;width: 76px;height: 112px;cursor: pointer;z-index: 2;background: url(../img/buttons.png) no-repeat}
+.demo a.prev {left: 0;background-position: 0 0}
+.demo a.next {right: 0;background-position: -76px 0}
+.demo a.prev:hover {background-position: 0 -112px}
+.demo a.next:hover {background-position: -76px -112px}
+/*----------------------------为保证最佳效果，建议设置如下样式------------------------*/
+.slider {display: none}
+
+
+.content{
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.module{
+	height: 165px;
+}
+
+.app-body {
+	padding: 55px 0;
+}
+
+.app-box{
+	float: left;
+	width: 412px;
+	height: 52px;
+	padding-top: 5px;
+	border-left: 1px solid #e1e1e1;
+}
+
+.app-box:first-child{
+	border-left: 0;
+}
+
+.app-img{
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin: 0 30px 0 50px;
+} 
+
+.app-desc {
+	float: left;
+	width: 260px;
+}
+
+.app-desc span{
+	display: block;
+}
+
+.desc-t{
+	font-size: 18px;
+	line-height: 1.5;
+	color: #333;
+}
+
+.desc-b{
+	font-size: 14px;
+	color: #666;
+}
+
+.app-link:hover .desc-t,
+.app-link:hover .desc-b{
+	color: #f78200;
+} 
+
+
+.footer{
+	height: 160px;
+	border-top: 1px solid #ccc;
+}
+
+.footer-link{
+	text-align: center;
+	padding-top:80px;
+}
+
+.footer-link li{
+	display: inline-block;
+    width: 110px;
+    border-left: 1px solid #d9d9d9;
+    line-height: 14px;
+    height: 14px;
+    zoom: 1;
+}
+
+.footer-link li:first-child{
+	border-left: 0;
+}
+
+
+.footer-link li a{
+	color: #858585;
+	font-size: 14px;
+}
+
+.footer-link li a:hover{
+	color: #f78200;
+}
+
+
+
+.copyright {
+    line-height: 20px;
+    color: #c5c6c8;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
